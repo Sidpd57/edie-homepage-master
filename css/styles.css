@@ -97,23 +97,108 @@ button {
 
 .join {
     background-color: #2D9CDB;
-    padding: 0.75rem 1.5rem;
-    border-radius: 0.8rem;
-    margin-left: auto;
-}
-
-.anchor {
-    background-color: transparent;
     color: #F2F2F2;
     border: none;
+    border-radius: 0.8rem;
+    margin-left: auto;
+    padding: 0.75rem 1.5rem;
     text-decoration: none;
     cursor: pointer;
 }
+
 
 .id,
 .join {
     font-weight: 500;
 }
+
+.join:hover {
+    cursor: pointer;
+    background-color: #1D5D9B;
+    color: #ffffff;
+}
+
+
+/* SERVICES  */
+
+.main-container {
+    width: 90%;
+    margin: 180px auto;
+}
+
+.background-icon {
+    width: 53px;
+    height: 53px;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.button {
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.9rem;
+    background-color: #E0E0E0;
+    color: #828282;
+}
+
+.design {
+    background-color: #2D9CDB;
+    color: #FFFFFF;
+}
+
+.frontend {
+    background-color: #27AE60;
+    color: #FFFFFF;
+}
+
+.backend {
+    background-color: #EB5757;
+    color: #FFFFFF;
+}
+
+.card {
+    max-width: 420px;
+    border-radius: 2rem;
+    padding: 2.5rem;
+    margin: 40px  auto;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333333;
+    width: 60%;
+}
+
+.card--title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+
+.card--text {
+    font-size: 1rem;
+    margin: 0 0 2rem;
+}
+
+.card:hover,
+.card:focus {
+    cursor: pointer;
+    box-shadow: 5px 5px 18px hsla(0, 0%, 0%, 0.141);
+
+}
+
+.card:hover .card--button,
+.card:focus .card--button{
+    background-color: #2D9CDB;
+    color: #ffffff;
+} 
+
+
+/* OUR WORKS  */
 
 @media (min-width: 450px){
     .unhappy {
@@ -157,4 +242,24 @@ button {
     .top-bottom-margin {
         margin: 5rem 0;
     }
+    
+    /* SERVICE  */
+
+    .main-container {
+        width: 75%;
+    }
+
+    .subtitle {
+        font-size: 2.25rem;
+        font-weight: 500;
+        width: 30%;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    /* OUR WORKS */
 }
