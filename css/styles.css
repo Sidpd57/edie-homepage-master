@@ -15,6 +15,10 @@ img {
     max-width: 100%;
 }
 
+button {
+    font: inherit;
+}
+
 .container {
     width: 95%;
     margin: 0 auto;
@@ -92,11 +96,18 @@ img {
 }
 
 .join {
-    color: #F2F2F2;
     background-color: #2D9CDB;
     padding: 0.75rem 1.5rem;
     border-radius: 0.8rem;
     margin-left: auto;
+}
+
+.anchor {
+    background-color: transparent;
+    color: #F2F2F2;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .id,
