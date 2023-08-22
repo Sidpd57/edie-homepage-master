@@ -616,5 +616,6 @@ button {
     .footer--container {
         grid-template-areas: 'list modal feedback';
         margin-bottom: 8rem;
+        gap: 2rem;
     }
 }   
