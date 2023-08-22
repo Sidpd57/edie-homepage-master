@@ -255,7 +255,7 @@ button {
 .team {
     display: flex;
     flex-direction: column;
-    margin: 95px 0;
+    margin: 95px 0 0;
 }
 
 .team--info--title {
@@ -304,6 +304,54 @@ button {
 .team--member {
     border-radius: 1.2rem;
 }
+
+/* CLIENT  */
+.client {
+    width: 97%;
+    margin: 40px 0 100px;
+}
+
+.client--review {
+    margin-bottom: 2rem;
+}
+
+.client--profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client--pic {
+    border-radius: 1.125rem;
+    width: 25%;
+}
+
+.client--details {
+    width: 65%;
+}
+
+
+.client--review {
+    color: #333333;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.client--name {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    color: #333333;
+    font-weight: 500;
+}
+
+.client--info {
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    color: #828282;
+    font-weight: 500;
+}
+
 
 @media (min-width: 455px){
     .unhappy {
