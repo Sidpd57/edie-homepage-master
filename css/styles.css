@@ -373,7 +373,14 @@ button {
 }
 
 .created--by {
+    font-size: 0.875rem;
     text-align: center;
+    font-weight: 400;
+}
+
+.username {
+    font-weight: 500;
+    text-decoration: underline;
 }
 
 .list--items {
