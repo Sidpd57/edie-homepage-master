@@ -200,7 +200,58 @@ button {
 
 /* OUR WORKS  */
 
-@media (min-width: 450px){
+.work {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.work--title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333333;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.project {
+    margin-top: 2.5rem;
+}
+
+.project--img {
+    border-radius: 1.5rem;
+}
+
+.project--category {
+    color: #828282;
+    font-size: 0.75rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.project--name {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #333333;
+    margin: 0;
+}
+
+.see--more {
+    color: #2D9CDB;
+    font-size: 1.125rem;
+    margin-right: 0.5rem;
+}
+
+.arrow {
+    color: #2D9CDB;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+
+@media (min-width: 455px){
     .unhappy {
         font-size: 1.125rem;
     }
@@ -262,4 +313,62 @@ button {
     }
 
     /* OUR WORKS */
+
+    .work {
+        width: 75%;
+    }
+
+    .work--title {
+        font-size: 2.25rem;
+        margin-left: 0;
+        width: 45%;
+    }
+
+    .project--category {
+        font-size: 0.875rem;
+    }
+
+    .project--name {
+        font-size: 1.5rem;
+    }
+
+    .project--samples {
+        display: grid;
+        grid-template-areas: 'smart--home onboard'
+        'booking juice';
+        gap: 1.8rem;
+    }
+
+    .smart--home {
+        grid-area: smart--home;
+    }
+
+    .onboard {
+        grid-area: onboard;
+        margin-top: 0;
+    }
+
+    .booking {
+        grid-area: booking;
+    }
+
+    .juice {
+        grid-area: juice;
+        margin-top: 0;
+    }
+
+    .smart--home,
+    .booking {
+        margin-top: 150px;
+    }
+
+    .see--more {
+        font-size: 1.5rem;
+    }
+
+    .see--moreLink {
+        margin-top: 98px;
+        display: flex;
+        justify-content: flex-end;
+    }
 }
