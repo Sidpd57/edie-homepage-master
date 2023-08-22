@@ -358,13 +358,14 @@ button {
 .footer {
     background-color: #100E1D;
     color: #FFFFFF;
+    padding: 50px 0 30px;
 }
 
 .footer--container {
     width: 80%;
     margin: 0 auto;
-    padding: 20px 0 50px;
     display: grid;
+    margin-bottom: 7rem;
     grid-template-areas: 'list'
     'modal'
     'feedback';
@@ -607,10 +608,6 @@ button {
 
     .footer--container {
         grid-template-areas: 'list modal feedback';
-        margin-bottom: 3rem;
-    }
-    
-    .footer {
-        padding: 50px 0 30px;
+        margin-bottom: 8rem;
     }
 }   
