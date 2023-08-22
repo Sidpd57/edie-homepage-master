@@ -306,6 +306,7 @@ button {
 }
 
 /* CLIENT  */
+
 .client {
     width: 97%;
     margin: 40px 0 100px;
@@ -489,5 +490,22 @@ button {
     .team--info{
         align-self: center;
         width: 38%;
+    }
+
+    /* CLIENT  */
+    .client {
+        width: 83%;
+    }
+
+    .client--review {
+        font-size: 2.25rem;
+    }
+
+    .client--profile{
+        width: 40%;
+    }
+    
+    .client--review{
+        margin-bottom: 3rem;
     }
 }   
