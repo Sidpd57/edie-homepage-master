@@ -353,6 +353,99 @@ button {
     font-weight: 500;
 }
 
+/* FOOTER  */
+
+.footer {
+    background-color: #100E1D;
+    color: #FFFFFF;
+}
+
+.footer--container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0 50px;
+    display: grid;
+    grid-template-areas: 'list'
+    'modal'
+    'feedback';
+    gap: 3rem;
+}
+
+.created--by {
+    text-align: center;
+}
+
+.list--items {
+    grid-area: list;
+}
+
+.list--items p {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.modal {
+    grid-area: modal;
+}
+
+.logo {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+}
+
+.social--links {
+    display: flex;
+    gap: 1rem;
+}
+
+.feedback {
+    grid-area: feedback;
+}
+
+.feedback--query{
+    font-size: 0.625rem;
+    font-weight: 500;
+    color: #F2F2F2;
+}
+
+
+
+.feedback--email {
+    background-color: #F2F2F2;
+    border-radius: 0.8rem;
+    padding: 0.45rem 0.4rem 0.45rem 1rem;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* min-width: 295px; */
+}
+
+.feedback--id {
+    color: #BDBDBD;
+}
+
+.feedback--join {
+    background-color: #2D9CDB;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 0.8rem;
+    margin-left: auto;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.feedback--join:hover {
+    cursor: pointer;
+    background-color: #1D5D9B;
+    color: #ffffff;
+}
+
+.feedback--id,
+.feedback--join {
+    font-weight: 500;
+}
 
 @media (min-width: 455px){
     .unhappy {
@@ -503,9 +596,21 @@ button {
 
     .client--profile{
         width: 40%;
+        min-width: 300px;
     }
     
     .client--review{
         margin-bottom: 3rem;
+    }
+
+    /* FOOTER  */
+
+    .footer--container {
+        grid-template-areas: 'list modal feedback';
+        margin-bottom: 3rem;
+    }
+    
+    .footer {
+        padding: 50px 0 30px;
     }
 }   
